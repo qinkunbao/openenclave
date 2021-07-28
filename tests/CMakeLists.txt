@@ -48,6 +48,7 @@ else ()
   set(PYTHON "python")
 endif ()
 
+add_subdirectory(compiler_rt)
 add_subdirectory(mem)
 add_subdirectory(safecrt)
 add_subdirectory(safemath)
